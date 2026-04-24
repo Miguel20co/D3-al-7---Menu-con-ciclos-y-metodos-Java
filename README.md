@@ -2,19 +2,19 @@
 
   # Python 
    
-  def mostrar_menu():
-      print("Menu principal")
-      print("mostrar numeros(for)")
-      print("sumar numeros(while)")
-      print("validar contraseña")
-      print("salir")
+    def mostrar_menu():
+        print("Menu principal")
+        print("mostrar numeros(for)")
+        print("sumar numeros(while)")
+        print("validar contraseña")
+        print("salir")
     
-      opciones = int(input("selecionar opcion: "))
-      return opciones
+        opciones = int(input("selecionar opcion: "))
+        return opciones
 
-  def mostrarnumeros(n):
-      for i in range(1,n + 1):
-          print(i)
+    def mostrarnumeros(n):
+        for i in range(1,n + 1):
+            print(i)
         
   def sumarnumeros():
       total = 0
