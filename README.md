@@ -65,9 +65,9 @@
 
 # Java
 
-  import java.util.Scanner;
+    import java.util.Scanner;
 
-  public class ProgramaMenu {
+    public class ProgramaMenu {
 
       public static void main(String[] args) {
           Scanner sc = new Scanner(System.in);
