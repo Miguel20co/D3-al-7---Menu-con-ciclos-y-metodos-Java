@@ -16,49 +16,49 @@
         for i in range(1,n + 1):
             print(i)
         
-  def sumarnumeros():
-      total = 0
-      num_ingresado = -1
-      print("ingresa los numeros, no colocar 0")
+    def sumarnumeros():
+        total = 0
+        num_ingresado = -1
+        print("ingresa los numeros, no colocar 0")
     
-      while num_ingresado != 0:
-          num_ingresado = int(input("numero: "))
-          total = total + num_ingresado
+        while num_ingresado != 0:
+            num_ingresado = int(input("numero: "))
+            total = total + num_ingresado
         
-      return total
+        return total
 
-  def validarcontraseña():
-      clave = "2588"
+    def validarcontraseña():
+        clave = "2588"
     
-      while True:
-          intento = input("Escribe la clave: ")
+        while True:
+            intento = input("Escribe la clave: ")
         
-          if intento == clave:
-              print("Acceso concedido.")
-              break
+            if intento == clave:
+                print("Acceso concedido.")
+                break
             
-          else:
-              print("Clave mala, intenta otra vez.")
+            else:
+                print("Clave mala, intenta otra vez.")
 
-  continuar = True
+    continuar = True
 
-  while continuar:
-      opcion_elegida = mostrar_menu()
+    while continuar:
+        opcion_elegida = mostrar_menu()
     
-      if opcion_elegida == 1:
-          limite = int(input("¿cuantos numeros quieres ver?: "))
-          mostrarnumeros(limite)
+        if opcion_elegida == 1:
+            limite = int(input("¿cuantos numeros quieres ver?: "))
+            mostrarnumeros(limite)
         
-      elif opcion_elegida == 2:
-          resultado = sumarnumeros()
-          print("suma del total de numeros:", resultado)
+        elif opcion_elegida == 2:
+            resultado = sumarnumeros()
+            print("suma del total de numeros:", resultado)
         
-      elif opcion_elegida == 3:
-          validarcontraseña()
+        elif opcion_elegida == 3:
+            validarcontraseña()
         
-      elif opcion_elegida == 4:
-          print("cerrando programa.")
-          continuar = False
+        elif opcion_elegida == 4:
+            print("cerrando programa.")
+            continuar = False
 
 
 
